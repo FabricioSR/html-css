@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategrey;
+    margin: 0px;
+}
+header {
+    background-color: whitesmoke;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+header > h1 {
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+}
+nav {
+    background-color: gray;
+    width: 500px;
+    padding: 2px;
+    margin: 15px 0px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    box-shadow: 1px 1px 5px black;
+    /*deslocamento horizontal, deslocamento vertical, espalhamento e cor*/
+    
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    width: 700px;
+    background-color: whitesmoke;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+#assuntos {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+h2 {
+    text-align: center;
+}
+aside{
+    background-color: rgb(56, 66, 56);
+    color: white;
+    border-radius: 5px;
+}
+
+#artigo01 {
+    background-color: rgba(82, 126, 82, 0.644);
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#artigo02 {
+    background-color: rgba(82, 126, 82, 0.644);
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center; 
+    border-radius: 5px;   
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
